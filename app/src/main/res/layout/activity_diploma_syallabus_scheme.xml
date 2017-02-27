@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_diploma_syallabus_scheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sachinsbethur.technicalsyllabusquestionpapers.DiplomaSyallabusScheme"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:text="@string/tv_oldsyllabus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:textSize="30sp"
+        android:id="@+id/textView"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+         />
+
+    <Button
+        android:text="@string/btn_oldscheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:id="@+id/button"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:background="@drawable/buttonshape_sem1"
+         />
+
+    <TextView
+        android:text="@string/tv_newsyllabus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:id="@+id/tvNewScheme"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:layout_marginTop="21dp"
+         />
+
+    <Button
+        android:text="@string/btn_newscheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnNewScheme"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:background="@drawable/buttonshape_sem1"
+        android:layout_marginTop="21dp"
+        />
+</LinearLayout>

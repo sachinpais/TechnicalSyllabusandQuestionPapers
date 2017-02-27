@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_diploma_options"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:showDividers="middle"
+    android:divider="@drawable/empty_tall_divider"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    tools:context="com.sachinsbethur.technicalsyllabusquestionpapers.DiplomaOptions"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnSyllabus"
+        android:text="@string/btn_syllabus"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape_syllabus"
+        android:shadowColor="#1923A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btnQuestionPapers"
+        android:text="@string/btn_qp"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape_questionpaper"
+        android:shadowColor="#1923A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/btnLabManuals"
+        android:text="@string/btn_labManuals"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape_engineering"
+        android:shadowColor="#1923A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:onClick="onClick"
+        />
+
+    <com.sachinsbethur.technicalsyllabusquestionpapers.ScrollTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAds"
+        />
+
+</LinearLayout>

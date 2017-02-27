@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Technical Syllabus &amp; QuestionPapers</string>
+    <string name="btn_diploma">Diploma</string>
+    <string name="btn_engineering">Engineering</string>
+    <string name="btn_dcet">Diploma CET</string>
+    <string name="btn_syllabus">Syllabus</string>
+    <string name="btn_qp">Question Papers</string>
+    <string name="sem1">Semester-1</string>
+    <string name="sem2">Semester-2</string>
+    <string name="sem3">Semester-3</string>
+    <string name="sem4">Semester-4</string>
+    <string name="sem5">Semester-5</string>
+    <string name="sem6">Semester-6</string>
+    <string name="sem7">Semester-7</string>
+    <string name="sem8">Semester-8</string>
+    <string name="sem9">Semester-9</string>
+    <string name="tv_oldsyllabus">Old Syllabus Scheme</string>
+    <string name="tv_newsyllabus">New Syllabus Scheme(CBSE)</string>
+    <string name="btn_newscheme">New Scheme</string>
+    <string name="btn_oldscheme">Old Scheme</string>
+    <string name="btn_labManuals">Lab Manuals</string>
+    <string name="adText">Admission open for 1)8th,9th,10th,PUC I &amp; PUC II (ICSE,CBSE,STATE) 2)Diploma,Diploma CET &amp; B.E (Any subjects &amp; Any branch with labs) +91-974 048 8603 / 988 034 9593 3)Responsive Web Design Training 4)Post Free Advertising  in Nandi Coaching Centre..  </string>
+</resources>
